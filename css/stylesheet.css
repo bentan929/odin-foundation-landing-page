@@ -1,0 +1,135 @@
+body {
+  font-family: 'roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-container {
+  color: #E5E7EB;
+  font-size: 18px;
+  padding: 20px 200px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-container h2 {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.navigation-links {
+  display: flex;
+  list-style-type: none;
+  margin-left: auto;
+  gap: 15px;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border-radius: 10px;
+  border-width: 2px;
+}
+
+.hero-container,
+.footer-container {
+  background-color: #1F2937;
+}
+
+.hero-main-text-container {
+  display: flex;
+  margin-top: 30px;
+  flex: 1 auto;
+}
+
+.hero-main-text-container img {
+  padding: 20px;
+  width: 600px;
+  height: auto;
+  flex: 1 auto;
+}
+
+.hero-main-text {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.hero-main-text h2 {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+  margin: 0;
+}
+
+.information-container {
+  text-align: center;
+}
+
+.img-with-text-container {
+  display: flex;
+  padding: 30px;
+  margin: 30px 200px;
+  justify-content: space-around;
+  color: #1F2937;
+}
+
+.img-with-text img{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3882F6;
+  border-radius: 5px;
+  width: 200px;
+  height: auto;
+}
+
+.quote-container {
+  text-align: start;
+  padding: 30px 300px;
+  background-color: #E5E7EB;
+}
+
+.quote-container p {
+  margin-block-end: 0;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+.quote-container h3 {
+  text-align: end;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+  margin: 100px 200px;
+  background-color: #3882F6;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.cta-text-container h4,
+.cta-text-container p{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: #E5E7EB;
+}
+
+.cta-container button {
+  border-color: #E5E7EB;
+  border-width: 3px;
+}
+
+.footer-container p {
+  margin-block-end: 0;
+  text-align: center;
+  padding: 30px;
+  color: #E5E7EB;
+}
